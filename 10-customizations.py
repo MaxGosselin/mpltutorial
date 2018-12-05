@@ -38,9 +38,15 @@ def graph_data():
         label.set_rotation(45)
     
     ax1.grid(True) #, color='g', linestyle='-')
+
+    # We can change axis label colors by:
     ax1.xaxis.label.set_color('c')
     ax1.yaxis.label.set_color('r')
 
+    # We can set custom ranges for our axes
+    ax1.set_yticks([0,100, 200, 300, 400, 500, 600, 700])
+
+    
     plt.xlabel('Date')
     plt.ylabel('Price')
     plt.title('Interesting graph\nCheck it out')
