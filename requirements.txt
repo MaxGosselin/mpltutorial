@@ -1,0 +1,7 @@
+## Matplotlib tut requirements.
+
+requests
+numpy
+pandas
+matplotlib
+jupyter
