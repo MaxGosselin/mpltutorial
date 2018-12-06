@@ -1,5 +1,6 @@
 ## Matplotlib tut requirements.
 
+pylint
 requests
 numpy
 pandas
